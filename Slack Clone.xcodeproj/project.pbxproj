@@ -19,6 +19,7 @@
 		F1C95C801F7D5F1A007C3505 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C95C7F1F7D5F1A007C3505 /* Constants.swift */; };
 		F1C95C821F7D63E4007C3505 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C95C811F7D63E4007C3505 /* LoginVC.swift */; };
 		F1C95C841F7D66AD007C3505 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C95C831F7D66AD007C3505 /* CreateAccountVC.swift */; };
+		F1FA2D3B1F7D95B600240C47 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA2D3A1F7D95B600240C47 /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		F1C95C7F1F7D5F1A007C3505 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F1C95C811F7D63E4007C3505 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		F1C95C831F7D66AD007C3505 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		F1FA2D3A1F7D95B600240C47 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		F1C95C5D1F7C74D3007C3505 /* Slack Clone */ = {
 			isa = PBXGroup;
 			children = (
+				F1FA2D391F7D95A000240C47 /* Services */,
 				F1C95C7E1F7D5EFF007C3505 /* Utilities */,
 				F1C95C731F7D4033007C3505 /* Supporting Files */,
 				F1C95C701F7D3CEC007C3505 /* Model */,
@@ -148,6 +151,14 @@
 				F1C95C7F1F7D5F1A007C3505 /* Constants.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F1FA2D391F7D95A000240C47 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F1FA2D3A1F7D95B600240C47 /* AuthService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +288,7 @@
 				F1C95C7B1F7D4926007C3505 /* SWRevealViewController.m in Sources */,
 				F1C95C781F7D4332007C3505 /* ChatVC.swift in Sources */,
 				F1C95C841F7D66AD007C3505 /* CreateAccountVC.swift in Sources */,
+				F1FA2D3B1F7D95B600240C47 /* AuthService.swift in Sources */,
 				F1C95C821F7D63E4007C3505 /* LoginVC.swift in Sources */,
 				F1C95C7D1F7D4BEA007C3505 /* GradientView.swift in Sources */,
 				F1C95C7A1F7D4341007C3505 /* ChannelVC.swift in Sources */,
