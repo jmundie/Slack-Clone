@@ -16,6 +16,8 @@
 		F1C95C7A1F7D4341007C3505 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C95C791F7D4341007C3505 /* ChannelVC.swift */; };
 		F1C95C7B1F7D4926007C3505 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C95C751F7D4061007C3505 /* SWRevealViewController.m */; };
 		F1C95C7D1F7D4BEA007C3505 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C95C7C1F7D4BEA007C3505 /* GradientView.swift */; };
+		F1C95C801F7D5F1A007C3505 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C95C7F1F7D5F1A007C3505 /* Constants.swift */; };
+		F1C95C821F7D63E4007C3505 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C95C811F7D63E4007C3505 /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		F1C95C771F7D4332007C3505 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		F1C95C791F7D4341007C3505 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		F1C95C7C1F7D4BEA007C3505 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		F1C95C7F1F7D5F1A007C3505 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F1C95C811F7D63E4007C3505 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 		F1C95C5D1F7C74D3007C3505 /* Slack Clone */ = {
 			isa = PBXGroup;
 			children = (
+				F1C95C7E1F7D5EFF007C3505 /* Utilities */,
 				F1C95C731F7D4033007C3505 /* Supporting Files */,
 				F1C95C701F7D3CEC007C3505 /* Model */,
 				F1C95C711F7D3D10007C3505 /* View */,
@@ -119,6 +124,7 @@
 			children = (
 				F1C95C771F7D4332007C3505 /* ChatVC.swift */,
 				F1C95C791F7D4341007C3505 /* ChannelVC.swift */,
+				F1C95C811F7D63E4007C3505 /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -131,6 +137,14 @@
 				F1C95C741F7D4060007C3505 /* Slack Clone-Bridging-Header.h */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1C95C7E1F7D5EFF007C3505 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F1C95C7F1F7D5F1A007C3505 /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +273,11 @@
 			files = (
 				F1C95C7B1F7D4926007C3505 /* SWRevealViewController.m in Sources */,
 				F1C95C781F7D4332007C3505 /* ChatVC.swift in Sources */,
+				F1C95C821F7D63E4007C3505 /* LoginVC.swift in Sources */,
 				F1C95C7D1F7D4BEA007C3505 /* GradientView.swift in Sources */,
 				F1C95C7A1F7D4341007C3505 /* ChannelVC.swift in Sources */,
 				F1C95C5F1F7C74D3007C3505 /* AppDelegate.swift in Sources */,
+				F1C95C801F7D5F1A007C3505 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
